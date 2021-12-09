@@ -1,0 +1,10 @@
+[package]
+name = "the_app"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+the_macro = { path = "../the_macro" }
+log = "*"
+env_logger = "*"
+serde = { version = "*", features = ["derive"] }
