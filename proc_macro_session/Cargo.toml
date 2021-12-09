@@ -1,0 +1,2 @@
+[workspace]
+members = ["the_app", "the_macro"]
